@@ -1,4 +1,4 @@
-<bold> This Repo Contains Below AWS cloud Projects </bold>
+** This Repo Contains Below AWS cloud Projects **
 
  PROJECT 1 - MICROSERVICES USING KUBERNETES
 

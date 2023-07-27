@@ -2,11 +2,18 @@ Follow the below steps to deploy to wordpress in EC2instance
 
 STEP 1:-
 DEPLOY AN EC2 INSTANCE WITH BELOW SPECIFICATIONS:--
-EC2 INSTANCE [ 1GB M ,1VCPU ] [ IN AWS - T2 MICRO] [OS - UBUNTU] [SECURITY GROUP - along with ssh traffic [ allow all the http & https traffic as well]
+EC2 INSTANCE [ 1GB M ,1VCPU ] [ IN AWS - T2 MICRO] [OS - UBUNTU] [SECURITY GROUP - Allow all the ssh traffic [ and also http & https traffic as well]
 
 STEP 2 :-
-ELASTIC IP [STATIC IP ] -- BECAUSE EVERYTIMES VM REBOOTS OR SHUTSDOWN ITS GETS STARTED WITH NEW IP ADDRESS [ SO ITS BETTER TO HAVE COMMON IP ALL ALONG FOR BETTER ACCESS]
-AND ASSIGN IT TO EC2 INSTANCE
+ELASTIC IP [STATIC IP ] -- BECAUSE EVERYTIMES VM REBOOTS OR SHUTSDOWN ITS GETS STARTED WITH NEW IP ADDRESS 
+
+[ SO ITS BETTER TO HAVE COMMON IP ALL ALONG FOR BETTER ACCESS]
+AND ASSIGN IT TO EC2 INSTANCE [ -> Go to Ec2 dashboard -> Allocate elastic Ip --> With in that Go to Actions Option --> Assign to Running Ec2 instance ]
+
 
 STEP 3 :-
+NOW INSTALL APACHE WEBSERVER 
+
+sudo apt install  apache2
+
 

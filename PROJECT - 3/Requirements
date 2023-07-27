@@ -51,6 +51,35 @@ tar -xvf latest.tar.gz
 11. Move wordpress folder to apache document root
 sudo mv wordpress/ /var/www/html
 
+And try to access the wordpress using  http://<ip>/wordpress
+if you want to access ur website with ur own ip ratherthan /wordpress than 
+
+Goto this path
+cd /etc/apache2/sites-available
+ls
+000-default.conf       < this is configuration file to u need to edit >
+
+DocumentRoot /var/www/html/wordpress/                    ---> place this to access
+
+systemctl reboot apache2
+
+
+
+
+
+If you want access ur website using the own domain name
+
+need to register with ur ip  first
+
+And need to add this in the config
+ServerName mysamplewebsite.online
+ServerAlias www.mysamplewebsite.online
+
+
+
+
+
+
 12. Command to restart/reload apache server
 sudo systemctl restart apache2
 OR

@@ -39,6 +39,8 @@ CREATE DATABASE wp;
 8. Grant all privilges on the database 'wp' to the newly created user
 GRANT ALL PRIVILEGES ON wp.* TO 'wp_user'@localhost;
 
+And get out of the mysql server using "ctrl+d"
+
 9. Download wordpress
 cd /tmp
 wget https://wordpress.org/latest.tar.gz

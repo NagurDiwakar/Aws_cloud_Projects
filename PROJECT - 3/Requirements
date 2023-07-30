@@ -1,5 +1,7 @@
 Follow the below steps to deploy to wordpress in EC2instance
 
+Youtube link:- https://www.youtube.com/watch?v=8Uofkq718n8&t=315s
+
 STEP 1:-
 DEPLOY AN EC2 INSTANCE WITH BELOW SPECIFICATIONS:--
 EC2 INSTANCE [ 1GB M ,1VCPU ] [ IN AWS - T2 MICRO] [OS - UBUNTU] [SECURITY GROUP - Allow all the ssh traffic [ and also http & https traffic as well]

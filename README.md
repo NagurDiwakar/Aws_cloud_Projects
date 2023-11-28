@@ -10,4 +10,9 @@
 
  **PROJECT 5 - DEVOPS PIPELINE DEPLOY ON KUBERNETES**
 
+
+ This is a Sample repo for aws projects
+
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
  
